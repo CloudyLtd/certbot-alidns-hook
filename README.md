@@ -12,7 +12,7 @@
 3、下载hook.py到服务器
 
 ```bash
-wget 
+wget https://github.com/CloudyLtd/certbot-alidns-hook/blob/main/hook.py
 ```
 
 4、运行续期命令
