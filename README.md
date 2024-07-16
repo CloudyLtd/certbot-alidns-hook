@@ -1,6 +1,6 @@
 # 阿里云域名解析Certbot证书续期
 
-> 该脚本使用阿里云SDK，查询"_acme-challenge"域名记录是否存在，存在时更新记录，否则添加一条类型为"TXT"主机记录为"_acme-challenge"
+> 该脚本使用阿里云SDK，查询"_acme-challenge"域名记录是否存在，存在时更新记录，否则添加一条类型为"TXT"主机记录为"_acme-challenge"的记录
 
 1、获取阿里云 AccessKey：您需要从阿里云控制台获取 AccessKey ID 和 AccessKey Secret，这些是调用阿里云 API 所需的凭证
 
