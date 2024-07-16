@@ -16,10 +16,17 @@
 
 ```bash
 wget https://github.com/CloudyLtd/certbot-alidns-hook/blob/main/hook.py
+chmod +r hook.py
 ```
 
 4、运行续期命令
 
 ```bash
 certbot renew --manual-auth-hook /you/path/hook.py
+```
+
+5、设置Crontab，实现自动续期
+```bash
+crontab -e
+0 0 1/30 * * certbot renew --manual-auth-hook /root/hook.py
 ```
