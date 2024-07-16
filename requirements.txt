@@ -1,0 +1,3 @@
+alibabacloud_alidns20150109
+alibabacloud_tea_openapi
+alibabacloud_tea_util
